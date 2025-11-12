@@ -1,0 +1,11 @@
+@apiserver_HostAddress = http://localhost:5062
+
+POST {{apiserver_HostAddress}}/api/Test/
+Accept: application/json
+Content-Type: application/json
+{
+  "id": 101,
+  "nap": "Luciana Luna"
+}
+
+###

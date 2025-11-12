@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D79578C5-DE47-4EA8-AC55-35B8FAAE64A5}|shared\\shared.csproj|z:\\r1ck7\\documents\\2025\\11nov\\d11\\app_test\\shared\\mydata\\mydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79578C5-DE47-4EA8-AC55-35B8FAAE64A5}|shared\\shared.csproj|solutionrelative:shared\\mydata\\mydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD52F418-AA69-4D71-B36B-FF74B98F45BC}|webcliente\\webcliente.csproj|z:\\r1ck7\\documents\\2025\\11nov\\d11\\app_test\\webcliente\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD52F418-AA69-4D71-B36B-FF74B98F45BC}|webcliente\\webcliente.csproj|solutionrelative:webcliente\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F147EA-4604-4CA9-906E-93BA8A82320F}|apiserver\\apiserver.csproj|z:\\r1ck7\\documents\\2025\\11nov\\d11\\app_test\\apiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F147EA-4604-4CA9-906E-93BA8A82320F}|apiserver\\apiserver.csproj|solutionrelative:apiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F147EA-4604-4CA9-906E-93BA8A82320F}|apiserver\\apiserver.csproj|z:\\r1ck7\\documents\\2025\\11nov\\d11\\app_test\\apiserver\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F147EA-4604-4CA9-906E-93BA8A82320F}|apiserver\\apiserver.csproj|solutionrelative:apiserver\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDtos.cs",
+              "DocumentMoniker": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\shared\\Mydata\\MyDtos.cs",
+              "RelativeDocumentMoniker": "shared\\Mydata\\MyDtos.cs",
+              "ToolTip": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\shared\\Mydata\\MyDtos.cs",
+              "RelativeToolTip": "shared\\Mydata\\MyDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:08:44.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\webcliente\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "webcliente\\Pages\\Home.razor",
+              "ToolTip": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\webcliente\\Pages\\Home.razor",
+              "RelativeToolTip": "webcliente\\Pages\\Home.razor",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T05:11:21.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\apiserver\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "apiserver\\Controllers\\TestController.cs",
+              "ToolTip": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\apiserver\\Controllers\\TestController.cs",
+              "RelativeToolTip": "apiserver\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T04:12:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\apiserver\\Program.cs",
+              "RelativeDocumentMoniker": "apiserver\\Program.cs",
+              "ToolTip": "Z:\\R1ck7\\Documents\\2025\\11Nov\\d11\\app_test\\apiserver\\Program.cs",
+              "RelativeToolTip": "apiserver\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:46:31.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

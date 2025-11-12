@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "apiserver.Controllers.TestController",
+    "Method": "Test",
+    "RelativePath": "api/Test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nperson",
+        "Type": "shared.Mydata.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

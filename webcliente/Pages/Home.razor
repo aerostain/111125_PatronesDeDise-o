@@ -1,0 +1,69 @@
+﻿@page "/"
+@using shared.Mydata
+@inject HttpClient httpClient
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<button class="btn btn-primary" @onclick=Test disabled="@btnCancellation">
+	@if (btnCancellation)
+	{
+		<span class="spinner-border spinner-border-sm me-2"></span>
+	}
+	<i class="bi-yin-yang me-1"></i>
+	Test Api
+</button>
+
+@if (btnCancellation)
+{
+	<button class="btn btn-warning ms-2" @onclick=CancelApiRequest>
+		<i class="bi bi-exclamation-triangle me-1"></i>
+		Cancelar
+	</button>
+}
+
+@if (!string.IsNullOrEmpty(result))
+{
+	<div class="alert alert-info my-3 fw-bold">
+		@result
+	</div>
+}
+
+@code {
+	string result = string.Empty;
+	bool btnCancellation = false;
+	CancellationTokenSource cancellationTokenSource = new();
+
+	async Task Test()
+	{
+		try
+		{
+			var mitoken = cancellationTokenSource.Token;
+			result = string.Empty;
+			btnCancellation = true;
+			Person miPerson = new Person(101, "Hello");
+			var res = await httpClient.PostAsJsonAsync("http://localhost:5062/api/test", miPerson, mitoken);
+			res.EnsureSuccessStatusCode();
+			var response = await res.Content.ReadFromJsonAsync<ApiResp>();
+			result = $"Consulta exitosa!!! {response!.cod} - {response.nombre}";
+		}
+		catch (Exception e)
+		{
+			result = e.Message;
+		}
+		finally
+		{
+			btnCancellation = false;
+		}
+	}
+
+	void CancelApiRequest()
+	{
+		cancellationTokenSource.Cancel();
+		btnCancellation = false;
+		cancellationTokenSource = new();
+	}
+
+	record ApiResp(int cod, string nombre);
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\webcliente.props" />
+</Project>

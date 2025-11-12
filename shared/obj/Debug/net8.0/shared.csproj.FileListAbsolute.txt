@@ -1,0 +1,11 @@
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\bin\Debug\net8.0\shared.deps.json
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\bin\Debug\net8.0\shared.dll
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\bin\Debug\net8.0\shared.pdb
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.GeneratedMSBuildEditorConfig.editorconfig
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.AssemblyInfoInputs.cache
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.AssemblyInfo.cs
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.csproj.CoreCompileInputs.cache
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.dll
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\refint\shared.dll
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\shared.pdb
+Z:\R1ck7\Documents\2025\11Nov\d11\app_test\shared\obj\Debug\net8.0\ref\shared.dll
